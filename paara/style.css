@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.sec1{
+    background-image: url('koli.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+.sec2{
+    background-image: url('tra.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec3{
+    background-image: url('tem.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec4{
+    background-image: url('vall.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec5{
+    background-image: url('agri.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec6{
+    background-image: url('idi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: large;
+}
+.sec7{
+    background-image: url('bee.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec8{
+    background-image: url('kan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec9{
+    background-image: url('tho.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec10{
+    background-image: url('img9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content{
+    background : rgba(0, 0, 0,.5);
+    padding: 2rem 2rem;
+    color: white;
+    align-self: flex-end;
+}
+.footer{
+    display: flex;
+    padding: 40px 0;
+    background-color: gray;
+}
+.footer.social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.5;
+}
